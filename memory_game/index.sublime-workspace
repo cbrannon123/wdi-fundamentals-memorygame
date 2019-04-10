@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"ca",
+				"cardFour"
+			],
+			[
+				"card",
+				"cardOne"
+			],
+			[
 				"in",
 				"instructions"
 			],
@@ -134,7 +142,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 36.0
 	},
 	"layout":
 	{
