@@ -62,5 +62,10 @@ function reset() {
 
 
 
+	
+
+
+
+
 
 createBoard()
