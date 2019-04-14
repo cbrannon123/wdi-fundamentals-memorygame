@@ -22,11 +22,18 @@ var cards = [
 
 ];
 
+
+
+var score = 0;
+
+
 var cardsInPlay = [];
 
 var checkForMatch = function() {
 	if (cardsInPlay.length === 2)
 		if (cardsInPlay[0] === cardsInPlay[1]) {
+		  score = score + 1;
+		  document.getElementById('points').innerHTML = score; 
 			alert("You found a match");
 		} else {
 			alert("Sorry, try again");
@@ -56,12 +63,13 @@ var createBoard = function (){
         
 };
 
+
+
+
+
 function reset() {
-	location.reload();
+	window.location.reload();
 };
-
-
-
 	
 
 
